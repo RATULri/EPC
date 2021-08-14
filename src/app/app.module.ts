@@ -8,13 +8,15 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { TopnavComponent } from './topnav/topnav.component';
 import { FooterComponent } from './footer/footer.component';
+import { OurServicesComponent } from './our-services/our-services.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarouselComponent,
     TopnavComponent,
-    FooterComponent
+    FooterComponent,
+    OurServicesComponent
   ],
   imports: [
     BrowserModule,

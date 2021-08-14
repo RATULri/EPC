@@ -18,6 +18,7 @@ export class CarouselComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    const canvas = document.getElementById('canvas');
   }
 
 }

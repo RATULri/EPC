@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { TopnavComponent } from './topnav/topnav.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarouselComponent,
-    TopnavComponent
+    TopnavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

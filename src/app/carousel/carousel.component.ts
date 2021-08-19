@@ -8,7 +8,7 @@ import { CarouselConfig } from 'ngx-bootstrap/carousel';
 })
 
 export class CarouselComponent implements OnInit {
-  carouselInterval = 2000;
+  carouselInterval = 20000;
   activeSlideIndex = 0;
   slides: { image: string }[] = [
     { image: "assets/images/carousel/1.jpg" },

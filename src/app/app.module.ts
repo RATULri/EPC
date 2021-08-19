@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 import { FaqComponent } from './faq/faq.component';
 import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
     TopnavComponent,
     FooterComponent,
     OurServicesComponent,
-    FaqComponent
+    FaqComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,

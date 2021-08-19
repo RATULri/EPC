@@ -9,6 +9,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { TopnavComponent } from './topnav/topnav.component';
 import { FooterComponent } from './footer/footer.component';
 import { OurServicesComponent } from './our-services/our-services.component';
+import { FaqComponent } from './faq/faq.component';
+import { AccordionModule } from 'ngx-bootstrap/accordion';
 
 @NgModule({
   declarations: [
@@ -16,13 +18,15 @@ import { OurServicesComponent } from './our-services/our-services.component';
     CarouselComponent,
     TopnavComponent,
     FooterComponent,
-    OurServicesComponent
+    OurServicesComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
+    AccordionModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { CarouselConfig } from 'ngx-bootstrap/carousel';
+import Typed from 'typed.js';
 
 @Component({
   selector: 'app-carousel',
@@ -19,6 +20,15 @@ export class CarouselComponent implements OnInit {
 
   ngOnInit(): void {
     const canvas = document.getElementById('canvas');
-  }
 
+    var options = {
+      strings: ['EPC.', 'Engineering, Procurement and Construction'],
+      typeSpeed: 45,
+      loop: true,
+      loopCount: Infinity,
+      showCursor: false
+    };
+
+    var typed = new Typed('.typed', options);
+  }
 }
